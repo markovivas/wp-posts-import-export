@@ -1,86 +1,86 @@
 # WP Posts Import Export
 
-Contributors: anomalyco
-Tags: export, import, posts, migration, wordpress
-Requires at least: 6.0
-Tested up to: 6.7
-Requires PHP: 8.1
-Stable tag: 1.0.0
-License: GPL-2.0+
-License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+Contribuidores: anomalyco
+Tags: export, import, posts, migração, wordpress
+Requer pelo menos: 6.0
+Testado até: 6.7
+Requer PHP: 8.1
+Versão estável: 1.0.0
+Licença: GPL-2.0+
+URI da Licença: http://www.gnu.org/licenses/gpl-2.0.txt
 
-Export and import WordPress posts preserving all content data, featured images, categories, tags, authors, and publication dates.
+Exporte e importe posts do WordPress preservando todo o conteúdo, imagens destacadas, categorias, tags, autores e datas de publicação.
 
-## Description
+## Descrição
 
-WP Posts Import Export allows you to export WordPress posts into a ZIP file containing a structured JSON file and all featured images, and import them back into any WordPress installation with full data preservation.
+WP Posts Import Export permite exportar posts do WordPress para um arquivo ZIP contendo um JSON estruturado e todas as imagens destacadas, e importá-los de volta em qualquer instalação WordPress com preservação completa dos dados.
 
-### Features
+### Funcionalidades
 
-- Export posts with filters by category and date range
-- Preserves title, content, slug, date (local and GMT), status, author, categories, and tags
-- Automatically downloads and renames featured images using post date (dd-mm-YYYY format)
-- Handles duplicate dates with incremental suffixes
-- Imports posts preserving original publication dates
-- Creates missing categories and tags during import
-- Falls back to current admin when original author doesn't exist
-- Imports featured images into the WordPress Media Library
-- Progress bar with detailed import report
-- Full i18n support
-- PHP 8.1+ compatible
-- Multisite compatible
+- Exportar posts com filtros por categoria e intervalo de datas
+- Preserva título, conteúdo, slug, data (local e GMT), status, autor, categorias e tags
+- Baixa e renomeia automaticamente imagens destacadas usando a data do post (formato dd-mm-YYYY)
+- Lida com datas duplicadas usando sufixos incrementais
+- Importa posts preservando as datas originais de publicação
+- Cria categorias e tags ausentes durante a importação
+- Usa o administrador atual quando o autor original não existe
+- Importa imagens destacadas para a Biblioteca de Mídia do WordPress
+- Barra de progresso com relatório detalhado de importação
+- Suporte completo a i18n
+- Compatível com PHP 8.1+
+- Compatível com Multisite
 
-## Installation
+## Instalação
 
-1. Upload the `wp-posts-import-export` folder to `/wp-content/plugins/`
-2. Activate the plugin through the 'Plugins' screen in WordPress
-3. Go to Tools > Import/Export Posts to use the plugin
+1. Envie a pasta `wp-posts-import-export` para `/wp-content/plugins/`
+2. Ative o plugin através da tela 'Plugins' no WordPress
+3. Vá em Ferramentas > Importar/Exportar Posts para usar o plugin
 
-## Usage
+## Uso
 
-### Exporting
+### Exportando
 
-1. Go to Tools > Import/Export Posts
-2. Select the "Export" tab
-3. Optionally filter by category or date range
-4. Click "Export Posts"
-5. Download the generated ZIP file
+1. Vá em Ferramentas > Importar/Exportar Posts
+2. Selecione a aba "Exportar"
+3. Opcionalmente, filtre por categoria ou intervalo de datas
+4. Clique em "Exportar Posts"
+5. Baixe o arquivo ZIP gerado
 
-### Importing
+### Importando
 
-1. Go to Tools > Import/Export Posts
-2. Select the "Import" tab
-3. Upload the ZIP file
-4. Click "Import"
-5. Wait for the progress bar to complete
-6. Review the import report
+1. Vá em Ferramentas > Importar/Exportar Posts
+2. Selecione a aba "Importar"
+3. Envie o arquivo ZIP
+4. Clique em "Importar"
+5. Aguarde a barra de progresso ser concluída
+6. Revise o relatório de importação
 
-## Frequently Asked Questions
+## Perguntas Frequentes
 
-### Does this plugin support custom post types?
+### Este plugin suporta tipos de post personalizados?
 
-Currently it only exports/imports standard WordPress posts. Custom post type support may be added in future versions.
+Atualmente ele exporta/importa apenas posts padrão do WordPress. Suporte para tipos de post personalizados pode ser adicionado em versões futuras.
 
-### Are attachments (other than featured images) exported?
+### Anexos (além de imagens destacadas) são exportados?
 
-No, only featured images are exported and imported. Other media attached to post content is not included.
+Não, apenas imagens destacadas são exportadas e importadas. Outras mídias anexadas ao conteúdo do post não são incluídas.
 
-### What happens if an author doesn't exist on the target site?
+### O que acontece se um autor não existir no site de destino?
 
-The post is assigned to the current administrator user.
+O post é atribuído ao usuário administrador atual.
 
-### Is the plugin multisite compatible?
+### O plugin é compatível com Multisite?
 
-Yes, the plugin works on WordPress multisite installations.
+Sim, o plugin funciona em instalações WordPress Multisite.
 
 ## Changelog
 
 ### 1.0.0
 
-- Initial release
+- Lançamento inicial
 
-## Upgrade Notice
+## Aviso de Atualização
 
 ### 1.0.0
 
-Initial release.
+Lançamento inicial.
