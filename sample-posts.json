@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "export_date": "2026-05-31 12:00:00",
+  "site_url": "https://example.com",
+  "posts": [
+    {
+      "title": "Hello World",
+      "content": "Welcome to WordPress. This is your first post.",
+      "excerpt": "",
+      "slug": "hello-world",
+      "post_date": "2026-05-12 10:00:00",
+      "post_date_gmt": "2026-05-12 08:00:00",
+      "status": "publish",
+      "author": "admin",
+      "author_id": 1,
+      "categories": ["Uncategorized"],
+      "tags": [],
+      "featured_image": "12-05-2026.jpg"
+    },
+    {
+      "title": "Sample Post",
+      "content": "This is a sample post with more content.",
+      "excerpt": "A brief excerpt",
+      "slug": "sample-post",
+      "post_date": "2026-05-13 14:30:00",
+      "post_date_gmt": "2026-05-13 12:30:00",
+      "status": "publish",
+      "author": "editor",
+      "author_id": 2,
+      "categories": ["News", "Updates"],
+      "tags": ["sample", "example", "wordpress"],
+      "featured_image": "13-05-2026.png"
+    }
+  ]
+}

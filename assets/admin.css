@@ -1,0 +1,49 @@
+.wp-pie-tab-content {
+    margin-top: 20px;
+}
+
+.wp-pie-progress-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.wp-pie-progress-bar-inner {
+    height: 100%;
+    width: 0;
+    background-color: #2271b1;
+    transition: width 0.5s ease;
+    border-radius: 4px;
+}
+
+.wp-pie-progress-text {
+    font-style: italic;
+    color: #666;
+}
+
+.wp-pie-export-section .form-table th,
+.wp-pie-import-section .form-table th {
+    width: 200px;
+}
+
+.wp-pie-report-content table {
+    margin-top: 10px;
+}
+
+.wp-pie-report-content td {
+    padding: 8px 10px;
+}
+
+#wp-pie-import-report {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 782px) {
+    .wp-pie-export-section .form-table th,
+    .wp-pie-import-section .form-table th {
+        width: auto;
+    }
+}
